@@ -1,0 +1,31 @@
+{
+  "dataset_rows": 1470,
+  "dataset_columns": 35,
+  "attrition_yes": 237,
+  "attrition_no": 1233,
+  "training_rows": 1176,
+  "test_rows": 294,
+  "chosen_threshold": 0.39,
+  "cross_validation_precision": 0.31865828092243187,
+  "cross_validation_recall": 0.8,
+  "cross_validation_f1": 0.45577211394302847,
+  "threshold_selection_note": "Highest-precision threshold meeting cross-validation recall >= 80%.",
+  "test_metrics_at_selected_threshold": {
+    "test_accuracy": 0.7312925170068028,
+    "test_precision_attrition_yes": 0.35185185185185186,
+    "test_recall_attrition_yes": 0.8085106382978723,
+    "test_f1_attrition_yes": 0.49032258064516127,
+    "test_roc_auc": 0.8031699543457662,
+    "test_average_precision": 0.5612212444049638
+  },
+  "excluded_identifier_columns": [
+    "EmployeeNumber"
+  ],
+  "excluded_constant_columns": [
+    "EmployeeCount",
+    "Over18",
+    "StandardHours"
+  ],
+  "feature_count": 30,
+  "model_name": "Recall-focused Logistic Regression (class_weight='balanced')"
+}

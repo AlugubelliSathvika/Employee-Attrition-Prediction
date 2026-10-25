@@ -1,0 +1,12 @@
+EMPLOYEE ATTRITION PREDICTION SYSTEM - FINAL PROJECT
+
+1. Open this folder in VS Code or a terminal.
+2. Install Python 3.10-3.13.
+3. Run: python -m pip install -r requirements.txt
+4. Run: python -m streamlit run streamlit_app.py
+5. Open the localhost URL shown in the terminal (usually http://localhost:8501).
+
+Main app: streamlit_app.py
+Trained model artifacts: M2_Model_Files_For_M3/
+Dataset: WA_Fn-UseC_-HR-Employee-Attrition.csv
+Final report/presentation: Final_Submission_Documents/
